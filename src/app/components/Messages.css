@@ -1,0 +1,6 @@
+#messages li {
+  color: rgba(0,0,0,.85);
+}
+#messages li strong {
+  color: black;
+}

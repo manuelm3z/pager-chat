@@ -1,0 +1,23 @@
+.channel a {
+  display: block;
+  color: rgba(0,0,0,.65);
+  font-weight: 400;
+  font-size: 14.4;
+  cursor: pointer;
+}
+.channel a.selected,
+.channel a:hover {
+  color: rgba(0,0,0,.85);
+  font-weight: 500;
+  font-size: 16px;
+}
+.channels .plus {
+  cursor: pointer;
+  font-size: 22px;
+  right: 4px;
+  position: absolute;
+  color: rgba(0,0,0,.65);
+}
+.channels .plus:hover {
+  color: rgba(0,0,0,.85);
+}
